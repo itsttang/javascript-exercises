@@ -1,6 +1,11 @@
-function sumAll(a, b) {
+const sumAll = function(min, max) {
+        if (min > max) {
+            temp = min;
+            min = max;
+            max = temp;
+}
 let sumAll = 0;
-    for (let i = a; i <= b; i++) {
+for (let i = min; i <= max; i++) {
     sumAll += i;
 }
 return sumAll;
