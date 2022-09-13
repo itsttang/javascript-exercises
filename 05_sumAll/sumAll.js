@@ -1,9 +1,9 @@
 function sumAll(a, b) {
 let sumAll = 0;
-    for (let i = 1; i <= 4; i++) {
-    result = sumAll += i;
+    for (let i = a; i <= b; i++) {
+    sumAll += i;
 }
-return result;
+return sumAll;
 };
 
 
