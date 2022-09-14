@@ -1,8 +1,10 @@
-const ftoc = function() {
-
+const ftoc = function(fdegrees) {
+var num = (fdegrees - 32) * 5/9;
+var result = Math.round(num*10)/10;
+return result;
 };
 
-const ctof = function() {
+const ctof = function(celsius) {
 
 };
 
